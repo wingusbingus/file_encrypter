@@ -51,7 +51,7 @@ def decrypt():
 
     print("Decrypting . . .")
 
-    # ENC #######################################
+            #   ENC    #
     keyValue = ['none'] * len(key)
     decodedString = ['none'] * len(string)
 
@@ -69,7 +69,7 @@ def decrypt():
         decodedString[c] += 32
         decodedString[c] = chr(int(decodedString[c]))
         c += 1
-    # ENC END ######################################
+        #   ENC END    #
     string = ''.join(decodedString)
 
     decoded = open(f"DECRYPTED_{image}", 'wb')
