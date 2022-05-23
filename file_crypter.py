@@ -14,7 +14,7 @@ def encrypt():
 
     print("Encrypting . . .")
 
-    # ENC #
+        #   ENC    #
     keyValue = ['none'] * len(key)
     encodedString = ['none'] * len(string)
 
@@ -31,7 +31,7 @@ def encrypt():
         encodedString[c] += 32
         encodedString[c] = chr(int(encodedString[c]))
         c += 1
-    # ENC END #
+        #   ENC END    #
 
     string = ''.join(encodedString)
 
