@@ -92,6 +92,5 @@ try:
             break
         else:
             print('[ERROR]: Failed to recognize input\n')
-
 except Exception as e:
     input(e)
