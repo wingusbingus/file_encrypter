@@ -72,7 +72,7 @@ def decrypt():
         #   ENC END    #
     string = ''.join(decodedString)
 
-    decoded = open(f"DECRYPTED_{image}", 'wb')
+    decoded = open(f"{image}", 'wb')
     decoded.write(base64.b64decode(string))
     decoded.close()
 
